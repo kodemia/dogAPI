@@ -1,0 +1,32 @@
+{
+  "name": "kodeday",
+  "version": "1.0.0",
+  "description": "my first node project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "knex": "knex",
+    "create-migration": "knex migrate:make",
+    "up-migrations": "knex migrate:latest",
+    "rollback-migrations": "knex migrate:rollback"
+  },
+  "keywords": [
+    "test",
+    "node",
+    "first"
+  ],
+  "author": "@devcharles",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.17.2",
+    "moment": "^2.24.0",
+    "mysql2": "^1.6.5",
+    "objection": "^1.6.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "standard": "^12.0.1"
+  }
+}
